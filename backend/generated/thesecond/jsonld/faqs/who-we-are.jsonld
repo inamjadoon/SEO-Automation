@@ -5,34 +5,34 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is this page about?",
+      "name": "Who is Bob Berri?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Who We Are — The Second Mortgages | Private Lending With Bob Berri 0 15 Years of mortgage experience 100+ private mortgages supplied $250M in sales Bob Berri Owner & Founder After years in the [...]"
+        "text": "Bob Berri is the Owner & Founder of The Second Mortgages. He established the company to simplify private mortgage lending and put a personal touch back into the process."
       }
     },
     {
       "@type": "Question",
-      "name": "Who should read this page?",
+      "name": "What is the mission of The Second Mortgages?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Anyone looking for information related to this topic will find this page useful."
+        "text": "The Second Mortgages aims to simplify private mortgage lending and reintroduce a personal touch to the process. They believe everyone deserves an uncomplicated route to homeownership, supported by trust and transparency."
       }
     },
     {
       "@type": "Question",
-      "name": "What information is covered here?",
+      "name": "What experience does Bob Berri have in the mortgage industry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The page explains key details and insights related to the topic."
+        "text": "Bob Berri has 15 years of mortgage experience in the private mortgage industry. He has supplied over 100 private mortgages and achieved $250M in sales."
       }
     },
     {
       "@type": "Question",
-      "name": "How can this information help me?",
+      "name": "Why did Bob Berri establish The Second Mortgages?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It helps you understand the topic and make informed decisions."
+        "text": "Bob Berri established The Second Mortgages after noticing individuals and families felt lost in financing complexities, overwhelmed by confusing terms, and treated impersonally. He wanted to offer a simpler, more personal approach to private mortgage lending."
       }
     }
   ]

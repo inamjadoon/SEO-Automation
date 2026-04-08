@@ -5,34 +5,34 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the main topic discussed in the Help Centre?",
+      "name": "What is this page about?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Help Centre features an article titled 'Bridge Financing Explained for Home Sellers.' This article provides detailed information on bridge financing for individuals selling their homes."
+        "text": "Help Centre — The Second Mortgages | Private Lending With Bob Berri 0 Help Centre 10 Minute Read Bridge Financing Explained for Home Sellers"
       }
     },
     {
       "@type": "Question",
-      "name": "What type of lending services does this platform offer?",
+      "name": "Who should read this page?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This platform, associated with 'The Second Mortgages,' specializes in private lending services. These services are provided with Bob Berri."
+        "text": "Anyone looking for information related to this topic will find this page useful."
       }
     },
     {
       "@type": "Question",
-      "name": "Who is involved in the private lending services?",
+      "name": "What information is covered here?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The private lending services offered by 'The Second Mortgages' are conducted with Bob Berri. He is a key figure in providing these financial solutions."
+        "text": "The page explains key details and insights related to the topic."
       }
     },
     {
       "@type": "Question",
-      "name": "How long does it take to read the featured article?",
+      "name": "How can this information help me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The article 'Bridge Financing Explained for Home Sellers' is designated as a '10 Minute Read.' This indicates its approximate length for readers."
+        "text": "It helps you understand the topic and make informed decisions."
       }
     }
   ]

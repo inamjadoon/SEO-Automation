@@ -13,26 +13,26 @@
     },
     {
       "@type": "Question",
-      "name": "What kind of training does URRAAN offer?",
+      "name": "What types of training programs does URRAAN offer?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "URRAAN provides two months of free, hands-on training and internships in a wide range of digital skills. The training takes place in Abbottabad from Monday to Friday, 9 am to 6 pm."
+        "text": "URRAAN provides two months of free, hands-on training and internships in a wide range of digital skills. These include UXUI & Graphic Designing, Web Development, Digital Marketing, Game Development, and a Young Leader’s Program (YLP)."
       }
     },
     {
       "@type": "Question",
-      "name": "What specific digital skills are taught at URRAAN?",
+      "name": "What are the outcomes for individuals who complete URRAAN's training?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "URRAAN offers training in areas such as UXUI and Graphic Designing, 3D-Animation, Android Development, Flutter App Development, Web Development, iOS Development, Digital Marketing, and Game Development. They also provide a Young Leader’s Program."
+        "text": "URRAAN has a success rate of over 75%, meaning the majority of candidates either start freelancing, secure local jobs, or initiate their own start-ups. The program also aims to bridge the gap between academia and industry and incubate innovative ideas."
       }
     },
     {
       "@type": "Question",
-      "name": "What are URRAAN's main goals?",
+      "name": "Who is eligible to apply for URRAAN's digital skills and training program?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "URRAAN aims to provide digital skills and training to youth, bridge the gap between academia and industry, and incubate innovative ideas by mentoring start-ups and providing grants. Their success rate is over 75%, with candidates often starting freelancing, getting jobs, or launching their own ventures."
+        "text": "URRAAN's Digital Skills & Training Program is designed for a diverse group of youth. This includes students, graduates, professionals, and housewives who are looking to acquire valuable digital skills."
       }
     }
   ]

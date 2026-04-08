@@ -5,34 +5,34 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What makes private mortgages from Bob Berri different from traditional banks?",
+      "name": "What is this page about?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer fast, flexible private mortgages with custom solutions and real decisions made by people, not algorithms. Our financing is built around your reality, not rigid bank rules, catering to complex lives and non-traditional income."
+        "text": "The Second Mortgages | Private Lending With Bob Berri 0 Get the Money You Need to Buy or Refinance Your Home — Fast, Flexible Private Mortgages For Those Who Expect More Than a Bank. Get the [...]"
       }
     },
     {
       "@type": "Question",
-      "name": "Who can benefit from these private lending solutions?",
+      "name": "Who should read this page?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our private lending solutions are designed for first-time buyers, self-employed individuals, or those with credit challenges. We build financing around your specific reality to help people with big goals access the funds they need."
+        "text": "Anyone looking for information related to this topic will find this page useful."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the maximum loan-to-value (LTV) financing available?",
+      "name": "What information is covered here?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We provide mortgage solutions with financing of up to 85 percent of your property’s value. This allows clients to access more capital and maximize leverage, even with flexible qualification guidelines."
+        "text": "The page explains key details and insights related to the topic."
       }
     },
     {
       "@type": "Question",
-      "name": "How quickly can I get approved and funded?",
+      "name": "How can this information help me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer fast approvals for our private mortgage solutions. Clients can typically get funded in as little as 48 hours, providing quick access to the money they need."
+        "text": "It helps you understand the topic and make informed decisions."
       }
     }
   ]

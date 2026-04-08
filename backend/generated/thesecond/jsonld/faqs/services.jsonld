@@ -5,34 +5,34 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the key benefits of getting a second mortgage through Bob Berri?",
+      "name": "What is this page about?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bob Berri offers second mortgages at 4.99% with no appraisal. This provides straightforward access to financing, fewer delays, and less out-of-pocket cost upfront, making it a faster way to unlock your home's equity."
+        "text": "Services — The Second Mortgages | Private Lending With Bob Berri 0 Unlock your second mortgage at 4.99% , with no appraisal We offer straightforward access to second mortgage financing with [...]"
       }
     },
     {
       "@type": "Question",
-      "name": "What types of private mortgage solutions does Bob Berri provide?",
+      "name": "Who should read this page?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bob Berri offers a range of private mortgage solutions including First Mortgages, Second Mortgages, HELOCs, Bad Credit Mortgages, Debt Consolidation, and Emergency Mortgages. These services are designed to be fast, flexible, and tailored to various financial situations."
+        "text": "Anyone looking for information related to this topic will find this page useful."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the maximum loan-to-value (LTV) financing available?",
+      "name": "What information is covered here?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mortgage solutions are available with financing of up to 85 percent of your property’s value. This allows clients, including buyers, investors, and business owners, to access more capital and maximize leverage with flexible qualification."
+        "text": "The page explains key details and insights related to the topic."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I get a mortgage quickly if I have an urgent deadline?",
+      "name": "How can this information help me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, private mortgage solutions offer rush closings with expedited processes and quick approval systems. These services are designed for urgent situations, ensuring seamless and swift transactions to meet tight deadlines without usual delays."
+        "text": "It helps you understand the topic and make informed decisions."
       }
     }
   ]
