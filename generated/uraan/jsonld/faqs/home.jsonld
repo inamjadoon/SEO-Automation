@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://urraan.pk/",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is URRAAN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "URRAAN is a Corporate Social Responsibility (CSR) project of CODEMATICS Services Pvt. Ltd. It was launched to empower youth by providing a platform to learn necessary digital skills, enabling them to play a positive role in Pakistan's digital economy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of training does URRAAN offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "URRAAN provides two months of free, hands-on training and internships in a wide range of digital skills. This training takes place within Abbottabad city, from Monday to Friday, 9 am to 6 pm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main aims of URRAAN's programs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "URRAAN aims to provide digital skills and training to youth, bridge the gap between academia and industry, and incubate innovative ideas and start-ups. They also guide founders in their entrepreneurial journey and may provide grants or investments to promising start-ups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What specific digital skills are covered in URRAAN's training areas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Training areas include UXUI and Graphic Designing, 3D-Animation, Android Development, Flutter App Development, Web Development, iOS Development, Digital Marketing, and Game Development. URRAAN also offers a Young Leader’s Program focusing on developing leadership and soft skills."
+      }
+    }
+  ]
+}

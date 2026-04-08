@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://glacieragency.com/website-development",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of website development services does Glacier Agency offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Glacier Agency specializes in designing and developing custom websites. Each site is tailored to the client's unique vision and goals, ensuring a seamless and engaging online experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Glacier Agency ensure a website stands out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They craft every detail to deliver a seamless, engaging online experience that stands out. Their approach ensures the website not only looks exceptional but also performs flawlessly across all devices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Glacier Agency's approach to website performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Their approach ensures that your website performs flawlessly across all devices. This means it will look exceptional and function perfectly whether viewed on a desktop, tablet, or smartphone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries has Glacier Agency worked with for website development?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Glacier Agency has experience with various industries, including Real Estate, Renovations & Construction, Wellness, Mortgages, and Commercial Builders. They develop custom websites for a diverse range of clients."
+      }
+    }
+  ]
+}

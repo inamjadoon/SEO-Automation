@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://urraan.pk#organization",
+      "name": "urraan.pk",
+      "url": "https://urraan.pk"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://urraan.pk#website",
+      "url": "https://urraan.pk",
+      "name": "URRAAN | Runway to Digital Flight",
+      "publisher": {
+        "@id": "https://urraan.pk#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://urraan.pk/#webpage",
+      "url": "https://urraan.pk/",
+      "name": "URRAAN | Runway to Digital Flight",
+      "description": "URRAAN is a CSR (Corporate Social Responsibility) project of CODEMATICS Services Pvt. Ltd. It was launched with the aim to empower our youth by providing them the right platform to learn necessary digital skills, so that they can play a positive role in the digital economy of Pakistan.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://urraan.pk#website"
+      }
+    }
+  ]
+}

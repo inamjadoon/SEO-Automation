@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://urraan.pk#organization",
+      "name": "urraan.pk",
+      "url": "https://urraan.pk"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://urraan.pk#website",
+      "url": "https://urraan.pk",
+      "name": "Our Success Stories | URRAAN",
+      "publisher": {
+        "@id": "https://urraan.pk#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://urraan.pk/our-success-stories#webpage",
+      "url": "https://urraan.pk/our-success-stories",
+      "name": "Our Success Stories | URRAAN",
+      "description": "Khurram QayyumDigital Marketing,URRAAN,AbbottabadExperience of working in URRAAN will always be a memorable and the journey was truly amazing filled with personal and professional growth. Working here polished my management and communication skills and I will forever thankful to my lead Junaid Mir and Ayesha Khan for that. I recommend the youth to join for enhancing of hard skills as well as soft skills.Adeel YousafWeb Developer,URRAAN,AbbottabadAfter internship in urraan, I got paid internship in UK based ",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://urraan.pk#website"
+      }
+    }
+  ]
+}

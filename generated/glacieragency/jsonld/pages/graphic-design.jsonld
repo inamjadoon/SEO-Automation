@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://glacieragency.com#organization",
+      "name": "glacieragency.com",
+      "url": "https://glacieragency.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://glacieragency.com#website",
+      "url": "https://glacieragency.com",
+      "name": "Graphic Design — Glacier Agency | Website Development, Logo & Branding, Digital Marketing & SEO, and Graphic Design Services",
+      "publisher": {
+        "@id": "https://glacieragency.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://glacieragency.com/graphic-design#webpage",
+      "url": "https://glacieragency.com/graphic-design",
+      "name": "Graphic Design — Glacier Agency | Website Development, Logo & Branding, Digital Marketing & SEO, and Graphic Design Services",
+      "description": "Custom graphics are crafted with precision to enhance brand identity and captivate audiences. Every design is thoughtfully created to convey the essence of the brand, blending creativity with strategic intent. From stunning visuals to compelling layouts, each graphic serves as a powerful tool to communicate messages with elegance and impact.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://glacieragency.com#website"
+      }
+    }
+  ]
+}

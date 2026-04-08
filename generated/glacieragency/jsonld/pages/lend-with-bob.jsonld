@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://glacieragency.com#organization",
+      "name": "glacieragency.com",
+      "url": "https://glacieragency.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://glacieragency.com#website",
+      "url": "https://glacieragency.com",
+      "name": "Lend With Bob — Glacier Agency | Website Development, Logo & Branding, Digital Marketing & SEO, and Graphic Design Services",
+      "publisher": {
+        "@id": "https://glacieragency.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://glacieragency.com/lend-with-bob#webpage",
+      "url": "https://glacieragency.com/lend-with-bob",
+      "name": "Lend With Bob — Glacier Agency | Website Development, Logo & Branding, Digital Marketing & SEO, and Graphic Design Services",
+      "description": "Lend With Bob is a trusted traditional mortgage provider serving clients across the Greater Toronto Area. With a focus on competitive rates and personalized service, we help homebuyers and homeowners secure reliable financing through established lending channels.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://glacieragency.com#website"
+      }
+    }
+  ]
+}

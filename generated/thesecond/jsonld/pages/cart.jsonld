@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://thesecond.squarespace.com#organization",
+      "name": "thesecond.squarespace.com",
+      "url": "https://thesecond.squarespace.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://thesecond.squarespace.com#website",
+      "url": "https://thesecond.squarespace.com",
+      "name": "The Second Mortgages | Private Lending With Bob Berri",
+      "publisher": {
+        "@id": "https://thesecond.squarespace.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://thesecond.squarespace.com/cart#webpage",
+      "url": "https://thesecond.squarespace.com/cart",
+      "name": "The Second Mortgages | Private Lending With Bob Berri",
+      "description": "First MortgagesSecond MortgagesDebt ConsolidationHELOCBad Credit MortgagesEmergency Mortgages",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://thesecond.squarespace.com#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "http://images.squarespace-cdn.com/content/v1/6807d9013f60d4740297cac4/11a56690-2669-4fe7-88e4-c239eb8678c5/Asset+971.png?format=1500w"
+      }
+    }
+  ]
+}

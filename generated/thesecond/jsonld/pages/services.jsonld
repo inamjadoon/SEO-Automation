@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://thesecond.squarespace.com#organization",
+      "name": "thesecond.squarespace.com",
+      "url": "https://thesecond.squarespace.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://thesecond.squarespace.com#website",
+      "url": "https://thesecond.squarespace.com",
+      "name": "Services — The Second Mortgages | Private Lending With Bob Berri",
+      "publisher": {
+        "@id": "https://thesecond.squarespace.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://thesecond.squarespace.com/services#webpage",
+      "url": "https://thesecond.squarespace.com/services",
+      "name": "Services — The Second Mortgages | Private Lending With Bob Berri",
+      "description": "We offer straightforward access to second mortgage financing with competitive rates and minimal friction. No appraisal means fewer delays and less out-of-pocket cost upfront. It’s a faster, simpler way to unlock your home’s equity when you need it most. Our process is built for speed, clarity, and real-life flexibility.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://thesecond.squarespace.com#website"
+      }
+    }
+  ]
+}

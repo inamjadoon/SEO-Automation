@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://glacieragency.com#organization",
+      "name": "glacieragency.com",
+      "url": "https://glacieragency.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://glacieragency.com#website",
+      "url": "https://glacieragency.com",
+      "name": "Logo & Branding — Glacier Agency | Website Development, Logo & Branding, Digital Marketing & SEO, and Graphic Design Services",
+      "publisher": {
+        "@id": "https://glacieragency.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://glacieragency.com/logo-branding#webpage",
+      "url": "https://glacieragency.com/logo-branding",
+      "name": "Logo & Branding — Glacier Agency | Website Development, Logo & Branding, Digital Marketing & SEO, and Graphic Design Services",
+      "description": "Here at Glacier Agency we provide the highest quality logo & branding services at an affordable rate that will keep your wallet happy. Feel free to contact us regarding any of your logo & branding needs!",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://glacieragency.com#website"
+      }
+    }
+  ]
+}

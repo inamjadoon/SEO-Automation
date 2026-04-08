@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://thesecond.squarespace.com#organization",
+      "name": "thesecond.squarespace.com",
+      "url": "https://thesecond.squarespace.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://thesecond.squarespace.com#website",
+      "url": "https://thesecond.squarespace.com",
+      "name": "Bridge Financing Explained for Home Sellers — The Second Mortgages | Private Lending With Bob Berri",
+      "publisher": {
+        "@id": "https://thesecond.squarespace.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://thesecond.squarespace.com/bridge-financing-explained-for-home-sellers#webpage",
+      "url": "https://thesecond.squarespace.com/bridge-financing-explained-for-home-sellers",
+      "name": "Bridge Financing Explained for Home Sellers — The Second Mortgages | Private Lending With Bob Berri",
+      "description": "Timing mismatches between buying and selling properties create one of the most stressful financial gaps homeowners faces. In competitive markets, buyers often secure a new property before the sale of their existing one closes. When those closing dates do not align, bridge financing becomes a practical short-term funding solution.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://thesecond.squarespace.com#website"
+      }
+    }
+  ]
+}

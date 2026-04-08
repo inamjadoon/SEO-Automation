@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://glacieragency.com/logo-branding",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of logo and branding services does Glacier Agency offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Glacier Agency creates custom logos and branding uniquely tailored to reflect clients' values and vision. They focus on designing distinct and memorable visual identities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Glacier Agency approach logo and branding design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Their team works closely with each client throughout the design process. This ensures every element aligns with the client's brand story and goals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What elements are considered in Glacier Agency's branding process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They consider various elements, from color schemes to typography. Every element is carefully chosen to align with the client's overall brand story and objectives."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the goal of Glacier Agency's logo and branding services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The goal is to design distinct and memorable visual identities that uniquely reflect a client's values and vision. They ensure every element supports the client's brand story and goals."
+      }
+    }
+  ]
+}

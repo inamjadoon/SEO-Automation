@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://thesecond.squarespace.com#organization",
+      "name": "thesecond.squarespace.com",
+      "url": "https://thesecond.squarespace.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://thesecond.squarespace.com#website",
+      "url": "https://thesecond.squarespace.com",
+      "name": "Who We Are — The Second Mortgages | Private Lending With Bob Berri",
+      "publisher": {
+        "@id": "https://thesecond.squarespace.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://thesecond.squarespace.com/who-we-are#webpage",
+      "url": "https://thesecond.squarespace.com/who-we-are",
+      "name": "Who We Are — The Second Mortgages | Private Lending With Bob Berri",
+      "description": "of mortgage experience",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://thesecond.squarespace.com#website"
+      }
+    }
+  ]
+}
