@@ -44,3 +44,12 @@ brand: www.urraan.pk
 URRAAN is a CSR (Corporate Social Responsibility) project of CODEMATICS Services Pvt. Ltd. It was launched with the aim to empower our youth by providing them the right platform to learn necessary digital skills, so that they can play a positive role in the digital economy of Pakistan.
 
 ---
+
+## URRAAN | Runway to Digital Flight
+URL: https://urraan.pk/
+Type: page
+brand: www.urraan.pk
+
+URRAAN is a CSR (Corporate Social Responsibility) project of CODEMATICS Services Pvt. Ltd. It was launched with the aim to empower our youth by providing them the right platform to learn necessary digital skills, so that they can play a positive role in the digital economy of Pakistan.
+
+---
