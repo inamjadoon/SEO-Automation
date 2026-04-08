@@ -320,7 +320,7 @@ export default function App() {
   return (
     <div style={styles.page}>
       <div style={styles.card}>
-        <div style={styles.successBadge}>✓ All done</div>
+        <div style={styles.successBadge}>All done</div>
         <h2 style={styles.title}>Your snippet is ready</h2>
         <p style={styles.subtitle}>
           Paste this into Squarespace → Settings → Advanced → Code Injection → Header

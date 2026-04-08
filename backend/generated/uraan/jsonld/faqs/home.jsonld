@@ -5,34 +5,34 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is URRAAN?",
+      "name": "What is this page about?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "URRAAN is a Corporate Social Responsibility (CSR) project by CODEMATICS Services Pvt. Ltd. It aims to empower Pakistani youth by providing them with necessary digital skills, enabling them to play a positive role in the digital economy."
+        "text": "URRAAN | Runway to Digital Flight Runway To Digital Flight APPLY NOW About Urraan URRAAN is a CSR (Corporate Social Responsibility) project of CODEMATICS Services Pvt. Ltd. It was launched with [...]"
       }
     },
     {
       "@type": "Question",
-      "name": "What types of training programs does URRAAN offer?",
+      "name": "Who should read this page?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "URRAAN provides two months of free, hands-on training and internships in a wide range of digital skills. These include UXUI & Graphic Designing, Web Development, Digital Marketing, Game Development, and a Young Leader’s Program (YLP)."
+        "text": "Anyone looking for information related to this topic will find this page useful."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the outcomes for individuals who complete URRAAN's training?",
+      "name": "What information is covered here?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "URRAAN has a success rate of over 75%, meaning the majority of candidates either start freelancing, secure local jobs, or initiate their own start-ups. The program also aims to bridge the gap between academia and industry and incubate innovative ideas."
+        "text": "The page explains key details and insights related to the topic."
       }
     },
     {
       "@type": "Question",
-      "name": "Who is eligible to apply for URRAAN's digital skills and training program?",
+      "name": "How can this information help me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "URRAAN's Digital Skills & Training Program is designed for a diverse group of youth. This includes students, graduates, professionals, and housewives who are looking to acquire valuable digital skills."
+        "text": "It helps you understand the topic and make informed decisions."
       }
     }
   ]
