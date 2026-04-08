@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://thesecond.squarespace.com/services",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the key benefits of getting a second mortgage through Bob Berri?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bob Berri offers second mortgages at 4.99% with no appraisal. This provides straightforward access to financing, fewer delays, and less out-of-pocket cost upfront, making it a faster way to unlock your home's equity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of private mortgage solutions does Bob Berri provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bob Berri offers a range of private mortgage solutions including First Mortgages, Second Mortgages, HELOCs, Bad Credit Mortgages, Debt Consolidation, and Emergency Mortgages. These services are designed to be fast, flexible, and tailored to various financial situations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the maximum loan-to-value (LTV) financing available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mortgage solutions are available with financing of up to 85 percent of your property’s value. This allows clients, including buyers, investors, and business owners, to access more capital and maximize leverage with flexible qualification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a mortgage quickly if I have an urgent deadline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, private mortgage solutions offer rush closings with expedited processes and quick approval systems. These services are designed for urgent situations, ensuring seamless and swift transactions to meet tight deadlines without usual delays."
+      }
+    }
+  ]
+}

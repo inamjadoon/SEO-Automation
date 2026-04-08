@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://thesecond.squarespace.com/help-centre",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the main topic discussed in the Help Centre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Help Centre features an article titled 'Bridge Financing Explained for Home Sellers.' This article provides detailed information on bridge financing for individuals selling their homes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What type of lending services does this platform offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This platform, associated with 'The Second Mortgages,' specializes in private lending services. These services are provided with Bob Berri."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is involved in the private lending services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The private lending services offered by 'The Second Mortgages' are conducted with Bob Berri. He is a key figure in providing these financial solutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to read the featured article?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The article 'Bridge Financing Explained for Home Sellers' is designated as a '10 Minute Read.' This indicates its approximate length for readers."
+      }
+    }
+  ]
+}

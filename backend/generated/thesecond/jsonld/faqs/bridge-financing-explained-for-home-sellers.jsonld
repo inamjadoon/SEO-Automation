@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://thesecond.squarespace.com/bridge-financing-explained-for-home-sellers",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is bridge financing for home sellers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bridge financing is a practical short-term funding solution for homeowners when the closing dates of their new property purchase and existing property sale do not align. It helps bridge the financial gap created by this timing mismatch, allowing buyers to secure a new property before their current one closes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does bridge financing work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bridge financing is a temporary loan that allows homeowners to access the equity in their current property to complete the purchase of a new one before their sale transaction finalizes. The bridge amount typically covers the difference between the purchase funds required and the expected sale proceeds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common approval criteria for bridge loans?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lenders evaluate bridge loans conservatively, requiring a firm, unconditional sale agreement and a confirmed purchase agreement with defined closing dates. Approval also depends on factors like the strength of the buyer for your current property, your income stability, and sufficient equity in the departing property."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What costs are associated with bridge financing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bridge financing is more expensive than traditional mortgages due to its short-term nature. Costs may include daily interest charges, administrative processing fees, legal documentation fees, and potential appraisal adjustments. Interest is usually calculated daily and paid when your property sale closes."
+      }
+    }
+  ]
+}
