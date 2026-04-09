@@ -11,6 +11,7 @@ from app.api.site_sync import router as site_sync_router
 from app.api.site_jsonld import router as site_jsonld_router
 from app.api.squarespace import router as squarespace_router
 from app.api.auto_square import router as auto_sq_router
+from app.api.get_generated_files import router as get_files_router
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.base import BaseHTTPMiddleware  #for ngrok
 
@@ -44,6 +45,7 @@ app.include_router(site_sync_router)
 app.include_router(site_jsonld_router)
 app.include_router(squarespace_router)
 app.include_router(auto_sq_router)
+app.include_router(get_files_router)
 
 
 app.mount("/static", StaticFiles(directory="generated"), name="static")

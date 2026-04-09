@@ -8,6 +8,7 @@
   animation: fadeUp 0.35s ease both;
 }
 
+/* ── Header ── */
 .file-explorer-header {
   display: flex;
   align-items: center;
@@ -20,53 +21,86 @@
 .file-explorer-title {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 12px;
+  gap: 7px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--text-secondary);
 }
 
-.file-explorer-title svg {
-  opacity: 0.6;
-}
-
-.file-count-badge {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  color: var(--text-muted);
+.file-explorer-domain {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
   font-size: 11px;
-  font-weight: 600;
-  padding: 2px 8px;
-  border-radius: 99px;
+  opacity: 0.5;
 }
 
-/* File list */
+/* ── File list scroll container ── */
 .file-list {
-  max-height: 260px;
+  max-height: 380px;
   overflow-y: auto;
 }
 
-.file-list::-webkit-scrollbar {
-  width: 4px;
-}
-.file-list::-webkit-scrollbar-track {
-  background: transparent;
-}
-.file-list::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 4px;
+.file-list::-webkit-scrollbar       { width: 4px; }
+.file-list::-webkit-scrollbar-track { background: transparent; }
+.file-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+/* ── Group ── */
+.file-group {
+  border-bottom: 1px solid var(--border-soft);
 }
 
+.file-group:last-child {
+  border-bottom: none;
+}
+
+.file-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 16px;
+  background: var(--surface-2);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.12s;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.file-group-header:hover {
+  background: var(--surface);
+}
+
+.file-group-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.file-group-icon {
+  font-size: 13px;
+}
+
+.file-group-chevron {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+/* ── File row ── */
 .file-item {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 16px;
+  padding: 9px 16px 9px 28px;
   border-bottom: 1px solid var(--border-soft);
   cursor: pointer;
-  transition: background 0.12s;
+  transition: background 0.1s;
 }
 
 .file-item:last-child {
@@ -80,12 +114,7 @@
 .file-item.active {
   background: var(--blue-dim);
   border-left: 2px solid var(--blue);
-}
-
-.file-icon {
-  font-size: 14px;
-  flex-shrink: 0;
-  opacity: 0.8;
+  padding-left: 26px;
 }
 
 .file-info {
@@ -100,6 +129,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: 'DM Mono', monospace;
 }
 
 .file-meta {
@@ -115,7 +145,18 @@
   flex-shrink: 0;
 }
 
-/* Preview panel */
+/* ── Badge ── */
+.file-count-badge {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 99px;
+}
+
+/* ── Preview panel ── */
 .file-preview {
   border-top: 1px solid var(--border);
   background: var(--bg);
@@ -136,13 +177,29 @@
   color: var(--text-secondary);
 }
 
+.file-preview-open {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--blue);
+  text-decoration: none;
+  padding: 3px 8px;
+  border: 1px solid rgba(79,142,255,0.25);
+  border-radius: var(--radius-sm);
+  background: var(--blue-dim);
+  transition: opacity 0.12s;
+}
+
+.file-preview-open:hover {
+  opacity: 0.8;
+}
+
 .file-preview-close {
   background: none;
   border: none;
   color: var(--text-muted);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1;
-  padding: 0 4px;
+  padding: 2px 4px;
   transition: color 0.12s;
 }
 
@@ -157,28 +214,23 @@
   color: var(--text-secondary);
   white-space: pre-wrap;
   word-break: break-all;
-  max-height: 200px;
+  max-height: 220px;
   overflow-y: auto;
   line-height: 1.7;
 }
 
-.file-preview-content::-webkit-scrollbar {
-  width: 4px;
-}
-.file-preview-content::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 4px;
-}
+.file-preview-content::-webkit-scrollbar       { width: 4px; }
+.file-preview-content::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
-/* Empty state */
+/* ── Empty state ── */
 .file-explorer-empty {
-  padding: 32px 16px;
+  padding: 36px 16px;
   text-align: center;
   color: var(--text-muted);
   font-size: 13px;
 }
 
-/* Loading skeleton */
+/* ── Skeleton ── */
 .file-skeleton {
   display: flex;
   align-items: center;

@@ -8,14 +8,14 @@
 :root {
   /* Palette */
   --bg:           #000000;
-  --surface:      #161a1f;
-  --surface-2:    #1e2329;
+  --surface:      #4f8dff5f;
+  --surface-2:    #112136;
   --border:       #272d36;
   --border-soft:  #1f252d;
 
-  --text-primary:   #f0f2f5;
-  --text-secondary: #7a8494;
-  --text-muted:     #4a5260;
+  --text-primary:   #ffffff;
+  --text-secondary: #847575;
+  --text-muted:     #ffffff;
 
   --blue:         #4f8eff;
   --blue-dim:     #1a2f52;
