@@ -1,0 +1,60 @@
+/* StatusPage.css */
+
+.status-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px 60px;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(79,142,255,0.08), transparent),
+    var(--bg);
+}
+
+.status-card {
+  width: 100%;
+  max-width: 560px;
+  background: var(--surface);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  padding: 40px;
+  box-shadow: var(--shadow-card);
+  animation: fadeUp 0.4s ease both;
+}
+
+.status-header {
+  margin-bottom: 28px;
+}
+
+.status-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.status-sub {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.status-domain-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: 3px 12px;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 10px;
+}
+
+.status-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 28px 0;
+}

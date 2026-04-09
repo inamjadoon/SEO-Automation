@@ -1,0 +1,81 @@
+/* StepTracker.css */
+
+.step-tracker {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.step-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  transition: background 0.2s;
+}
+
+.step-row.is-current {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.step-row.is-done {
+  opacity: 0.7;
+}
+
+.step-row.is-pending {
+  opacity: 0.35;
+}
+
+/* Circle */
+.step-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+  transition: background 0.3s;
+}
+
+.step-circle.done    { background: var(--green);    color: #fff; }
+.step-circle.current { background: var(--blue);     color: #fff; }
+.step-circle.pending { background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border); }
+
+/* Text */
+.step-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.step-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.step-status {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.step-status.done    { color: var(--green); }
+.step-status.current { color: var(--blue);  }
+.step-status.pending { color: var(--text-muted); }
+
+/* Spinner */
+.step-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--border);
+  border-top-color: var(--blue);
+  border-radius: 50%;
+  animation: spin 0.65s linear infinite;
+  flex-shrink: 0;
+}
