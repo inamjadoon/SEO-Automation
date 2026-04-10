@@ -36,6 +36,7 @@ export default function RegisterPage({ onSubmitted }) {
   return (
     <div className="register-page">
       <div className="register-card">
+        
         <div className="register-badge">
           <span className="register-badge-dot" />
           SEO Auto-Register
