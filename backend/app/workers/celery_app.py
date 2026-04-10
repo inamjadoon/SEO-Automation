@@ -1,10 +1,16 @@
+import os
+from dotenv import load_dotenv
 from celery import Celery
+load_dotenv()
+
+
+REDIS_URL = os.getenv("REDIS_URL")
 
 
 celery_app = Celery(
     "ai_content_system",
-    broker="redis://localhost:6379/0",
-    backend="redis://localhost:6379/0"
+    broker="REDIS_URL",
+    backend="REDIS_URL"
 )
 
 celery_app.autodiscover_tasks(["app.workers"])
