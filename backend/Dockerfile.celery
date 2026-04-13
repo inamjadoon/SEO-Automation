@@ -1,3 +1,15 @@
+# FROM python:3.13-slim
+
+# WORKDIR /app
+
+# COPY requirements.txt .
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# COPY . .
+
+# RUN mkdir -p generated
+
+# CMD ["celery", "-A", "app.workers.celery_app.celery_app", "worker", "--loglevel=info"]
 FROM python:3.13-slim
 
 WORKDIR /app
@@ -9,4 +21,8 @@ COPY . .
 
 RUN mkdir -p generated
 
-CMD ["celery", "-A", "app.workers.celery_app.celery_app", "worker", "--loglevel=info"]
+COPY healthcheck.py .
+
+EXPOSE 8080
+
+CMD ["python", "healthcheck.py"]
