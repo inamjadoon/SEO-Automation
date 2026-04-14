@@ -20,6 +20,8 @@ import logging
 import os
 from app.services.faq_generator import generate_faq_schema_sync
 import json
+from app.services.gcs import upload_text
+
 from dotenv import load_dotenv
 load_dotenv(override=True)
 import logging
@@ -118,12 +120,15 @@ def sync_site_task(self, site_id: str) -> str:
 
                 if faq_schema:
                     slug = item.entity_id or "home"
-                    faq_folder = os.path.join("generated", site_id, "jsonld", "faqs")
-                    os.makedirs(faq_folder, exist_ok=True)
-                    faq_path = os.path.join(faq_folder, f"{slug}.jsonld")
-                    with open(faq_path, "w", encoding="utf-8") as f:
-                        json.dump(faq_schema, f, indent=2, ensure_ascii=False)
-                    logger.info(f"FAQ schema saved for {item.canonical_url}")
+                    # faq_folder = os.path.join("generated", site_id, "jsonld", "faqs")
+                    # os.makedirs(faq_folder, exist_ok=True)
+                    # faq_path = os.path.join(faq_folder, f"{slug}.jsonld")
+                    # with open(faq_path, "w", encoding="utf-8") as f:
+                    #     json.dump(faq_schema, f, indent=2, ensure_ascii=False)
+                    # logger.info(f"FAQ schema saved for {item.canonical_url}")
+                    gcs_path = f"{site_id}/jsonld/faqs/{slug}.jsonld"
+                    upload_text(gcs_path, json.dumps(faq_schema, indent=2, ensure_ascii=False))
+                    logger.info(f"FAQ schema uploaded to GCS for {item.canonical_url}")
 
             site.schemas_generated = db.query(Entity).filter(Entity.site_id == site_id).count()
             db.commit()

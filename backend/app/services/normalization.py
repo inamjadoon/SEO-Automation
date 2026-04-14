@@ -101,7 +101,9 @@ def upsert_entities_for_site(
             entity.site_id = site_id
             entity.status = "pending"
         else:
-            jsonld_path = get_jsonld_path(entity_type, item.entity_id)
+            # jsonld_path = get_jsonld_path(entity_type, item.entity_id)
+            jsonld_path = get_jsonld_path(site_id, entity_type, item.entity_id)
+
             entity = Entity(
                 id=composite_id,
                 site_id=site_id,

@@ -1,5 +1,6 @@
 import os
 from app.schemas.content_document import ContentDocument
+from app.services.gcs import upload_text
 
 
 def generate_llms_text(doc: ContentDocument) -> str:
@@ -26,12 +27,14 @@ def generate_llms_text(doc: ContentDocument) -> str:
 
 
 def save_llms_file(store_id: str, text: str) -> str:
-    base_dir = f"generated/{store_id}"
-    os.makedirs(base_dir, exist_ok=True)
+    # base_dir = f"generated/{store_id}"
+    # os.makedirs(base_dir, exist_ok=True)
 
-    file_path = os.path.join(base_dir, "llms.txt")
+    # file_path = os.path.join(base_dir, "llms.txt")
 
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.write(text)
+    # with open(file_path, "w", encoding="utf-8") as f:
+    #     f.write(text)
 
-    return file_path
+    # return file_path
+    gcs_path = f"{store_id}/llms.txt"
+    return upload_text(gcs_path, text, content_type="text/plain")
