@@ -95,3 +95,4 @@ def delete_entity_route(entity_id: str, db: Session = Depends(get_db)):
     if not success:
         raise HTTPException(status_code=404, detail="Entity not found")
     return {"detail": "Entity deleted successfully"}
+

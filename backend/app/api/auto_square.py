@@ -106,6 +106,7 @@ def auto_register_site(payload: SiteAutoRegisterRequest, background_tasks: Backg
     # Schedule site sync / crawling in background
     background_tasks.add_task(sync_site_task, site_id)
     
+    
     logger.info(f"Site sync scheduled for {site_id} (runs in background)")
 
     # Refresh registry so Squarespace snippet can be generated

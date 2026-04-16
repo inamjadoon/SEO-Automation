@@ -21,8 +21,8 @@ import os
 from app.services.faq_generator import generate_faq_schema_sync
 import json
 from app.services.gcs import upload_text
-
 from dotenv import load_dotenv
+
 load_dotenv(override=True)
 import logging
 logger = logging.getLogger("automation")
@@ -101,6 +101,12 @@ def sync_site_task(self, site_id: str) -> str:
             db.query(Entity).filter(Entity.site_id == site_id).delete(synchronize_session=False)
             db.commit()
             upsert_entities_for_site(db, site_id, items)
+
+            
+            # entities = db.query(Entity).filter(Entity.site_id == site_id).all()
+            # for entity in entities:
+            #     celery_app.send_task("app.workers.tasks.process_entity", args=[entity.id])
+            # logger.info(f"Queued {len(entities)} process_entity tasks for {site_id}")
 
             logger.info(f"Generating FAQ schemas for {site_id}...")
             for item in items:
