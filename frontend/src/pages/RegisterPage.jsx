@@ -13,7 +13,7 @@ export default function RegisterPage({ onSubmitted }) {
     setLoading(true)
 
     try {
-      const res = await fetch('http://localhost:8000/sites/auto-register', {
+      const res = await fetch('https://ai-seo-backend-597089074107.us-central1.run.app/sites/auto-register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ site_id: siteId, domain }),
