@@ -8,6 +8,6 @@ def generate_llms_file_task(document_dict: dict):
     doc = ContentDocument(**document_dict)
 
     text = generate_llms_text(doc)
-    path = save_llms_file(doc.store_id, text)
+    path = save_llms_file(doc.site_id, text)
 
     return {"status": "completed", "path": path}
