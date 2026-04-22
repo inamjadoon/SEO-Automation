@@ -20,6 +20,7 @@ class Page(BaseModel):
 
 
 class ContentDocument(BaseModel):
+    site_id: str  
     source: str            # shopify | wordpress | custom
     store_id: str
     base_url: str

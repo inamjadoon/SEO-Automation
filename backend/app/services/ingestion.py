@@ -373,6 +373,7 @@ def to_content_document(site: Site, items: List[NormalizedItem]) -> ContentDocum
         )
 
     return ContentDocument(
+        site_id=site.id,
         source="custom",
         store_id=site.id,
         base_url=base_url,
