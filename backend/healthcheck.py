@@ -2,8 +2,10 @@ import http.server
 import threading
 import subprocess
 import sys
+import os
 
 def run_celery():
+    print("Starting Celery worker...", flush=True)
     process = subprocess.Popen(
         [
             "celery",
@@ -12,10 +14,16 @@ def run_celery():
             "--loglevel=info",
             "--pool=solo"
         ],
-        stdout=sys.stdout,
-        stderr=sys.stdout  # redirect stderr to stdout so Cloud Logging captures it
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT
     )
+
+    # Stream output line by line so nothing is lost
+    for line in iter(process.stdout.readline, b""):
+        print(line.decode("utf-8"), end="", flush=True)
+
     process.wait()
+    print(f"Celery worker exited with code {process.returncode}", flush=True)
 
 t = threading.Thread(target=run_celery, daemon=True)
 t.start()
