@@ -23,6 +23,10 @@ python -m venv venv
 # Activate it
 # On Windows:
 venv\Scripts\activate
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1fa75d3 (.)
 
 # Install dependencies
 pip install -r requirements.txt
