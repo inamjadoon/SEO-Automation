@@ -6,13 +6,6 @@
 - Python 3.13.1
 
 
-
-
-##  Getting Started
-
-
-
-
 ### 1. Backend Setup (Python)
 ```bash
 cd backend
