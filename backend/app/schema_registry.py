@@ -11,8 +11,5 @@ ALLOWED_TYPES = {
         "required_fields": ["name", "description"],
         "schema_type": "WebPage",
     },
-    "hotel": {
-        "required_fields": ["name", "address"],
-        "schema_type": "Hotel",
-    },
+    
 }
